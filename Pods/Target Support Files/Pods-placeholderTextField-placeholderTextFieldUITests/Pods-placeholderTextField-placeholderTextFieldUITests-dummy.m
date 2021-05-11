@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_placeholderTextField_placeholderTextFieldUITests : NSObject
+@end
+@implementation PodsDummy_Pods_placeholderTextField_placeholderTextFieldUITests
+@end

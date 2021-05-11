@@ -1,0 +1,6 @@
+framework module Pods_placeholderTextField {
+  umbrella header "Pods-placeholderTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
