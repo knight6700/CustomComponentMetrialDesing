@@ -51,6 +51,8 @@ class CustomSearchBar: UISearchBar {
         layer.insertSublayer(borderLayer, at: 0)
         updateBorder()
         
+        self.setImage(UIImage(named: "mobileIconsContextualSearch"), for: .search, state: .normal)
+
         super.draw(rect)
     }
     private func updateBorder() {
