@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		660A19E2AFB2A9E7B7CFE8E3 /* Pods_placeholderTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA336019269C2C4E3B72EB3 /* Pods_placeholderTextFieldTests.framework */; };
 		8ED104104E370F7F7C332B86 /* Pods_placeholderTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933E4F266F1ECBBD38C88802 /* Pods_placeholderTextField.framework */; };
+		DA908E322652DFBD00BFA8BB /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA908E312652DFBD00BFA8BB /* CustomSearchBar.swift */; };
 		DAFAD93326489DB30013F5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD93226489DB30013F5AF /* AppDelegate.swift */; };
 		DAFAD93526489DB30013F5AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD93426489DB30013F5AF /* SceneDelegate.swift */; };
 		DAFAD93726489DB30013F5AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD93626489DB30013F5AF /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		7E0832E81967C33978092F8E /* Pods-placeholderTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeholderTextFieldTests.release.xcconfig"; path = "Target Support Files/Pods-placeholderTextFieldTests/Pods-placeholderTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
 		933E4F266F1ECBBD38C88802 /* Pods_placeholderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeholderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABBD13F7E0AD22B3A233C96 /* Pods_placeholderTextField_placeholderTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeholderTextField_placeholderTextFieldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA908E312652DFBD00BFA8BB /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		DAFAD92F26489DB30013F5AF /* placeholderTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = placeholderTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFAD93226489DB30013F5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFAD93426489DB30013F5AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				DAFAD94026489DB50013F5AF /* Info.plist */,
 				DAFAD96D2648A06F0013F5AF /* TextFieldHoshi.swift */,
 				DAFAD9722648A0BF0013F5AF /* effects.swift */,
+				DA908E312652DFBD00BFA8BB /* CustomSearchBar.swift */,
 			);
 			path = placeholderTextField;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 			files = (
 				DAFAD93726489DB30013F5AF /* ViewController.swift in Sources */,
 				DAFAD93326489DB30013F5AF /* AppDelegate.swift in Sources */,
+				DA908E322652DFBD00BFA8BB /* CustomSearchBar.swift in Sources */,
 				DAFAD93526489DB30013F5AF /* SceneDelegate.swift in Sources */,
 				DAFAD9732648A0BF0013F5AF /* effects.swift in Sources */,
 				DAFAD96E2648A06F0013F5AF /* TextFieldHoshi.swift in Sources */,
