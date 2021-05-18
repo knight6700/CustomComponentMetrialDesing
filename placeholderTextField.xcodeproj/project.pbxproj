@@ -10,6 +10,10 @@
 		660A19E2AFB2A9E7B7CFE8E3 /* Pods_placeholderTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA336019269C2C4E3B72EB3 /* Pods_placeholderTextFieldTests.framework */; };
 		8ED104104E370F7F7C332B86 /* Pods_placeholderTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933E4F266F1ECBBD38C88802 /* Pods_placeholderTextField.framework */; };
 		DA908E322652DFBD00BFA8BB /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA908E312652DFBD00BFA8BB /* CustomSearchBar.swift */; };
+		DA908E672653ACB600BFA8BB /* ExpiryDateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA908E662653ACB600BFA8BB /* ExpiryDateView.xib */; };
+		DA908E742653B2E600BFA8BB /* ExpiryDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA908E732653B2E600BFA8BB /* ExpiryDateView.swift */; };
+		DA908E792653F5D400BFA8BB /* ExpiryDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA908E782653F5D300BFA8BB /* ExpiryDateExtension.swift */; };
+		DA908E7E2653F5F800BFA8BB /* ExpeiryDateValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA908E7D2653F5F800BFA8BB /* ExpeiryDateValidation.swift */; };
 		DAFAD93326489DB30013F5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD93226489DB30013F5AF /* AppDelegate.swift */; };
 		DAFAD93526489DB30013F5AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD93426489DB30013F5AF /* SceneDelegate.swift */; };
 		DAFAD93726489DB30013F5AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD93626489DB30013F5AF /* ViewController.swift */; };
@@ -49,6 +53,10 @@
 		933E4F266F1ECBBD38C88802 /* Pods_placeholderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeholderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABBD13F7E0AD22B3A233C96 /* Pods_placeholderTextField_placeholderTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeholderTextField_placeholderTextFieldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA908E312652DFBD00BFA8BB /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		DA908E662653ACB600BFA8BB /* ExpiryDateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpiryDateView.xib; sourceTree = "<group>"; };
+		DA908E732653B2E600BFA8BB /* ExpiryDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiryDateView.swift; sourceTree = "<group>"; };
+		DA908E782653F5D300BFA8BB /* ExpiryDateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiryDateExtension.swift; sourceTree = "<group>"; };
+		DA908E7D2653F5F800BFA8BB /* ExpeiryDateValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpeiryDateValidation.swift; sourceTree = "<group>"; };
 		DAFAD92F26489DB30013F5AF /* placeholderTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = placeholderTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFAD93226489DB30013F5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFAD93426489DB30013F5AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +128,34 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DA908E652653AC7400BFA8BB /* inputFields */ = {
+			isa = PBXGroup;
+			children = (
+				DA908E862653F62E00BFA8BB /* SearchBar */,
+				DA908E822653F62400BFA8BB /* ExpiryDate */,
+			);
+			path = inputFields;
+			sourceTree = "<group>";
+		};
+		DA908E822653F62400BFA8BB /* ExpiryDate */ = {
+			isa = PBXGroup;
+			children = (
+				DA908E662653ACB600BFA8BB /* ExpiryDateView.xib */,
+				DA908E732653B2E600BFA8BB /* ExpiryDateView.swift */,
+				DA908E7D2653F5F800BFA8BB /* ExpeiryDateValidation.swift */,
+				DA908E782653F5D300BFA8BB /* ExpiryDateExtension.swift */,
+			);
+			path = ExpiryDate;
+			sourceTree = "<group>";
+		};
+		DA908E862653F62E00BFA8BB /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				DA908E312652DFBD00BFA8BB /* CustomSearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
 		DAFAD92626489DB30013F5AF = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +181,7 @@
 		DAFAD93126489DB30013F5AF /* placeholderTextField */ = {
 			isa = PBXGroup;
 			children = (
+				DA908E652653AC7400BFA8BB /* inputFields */,
 				DAFAD93226489DB30013F5AF /* AppDelegate.swift */,
 				DAFAD93426489DB30013F5AF /* SceneDelegate.swift */,
 				DAFAD93626489DB30013F5AF /* ViewController.swift */,
@@ -154,7 +191,6 @@
 				DAFAD94026489DB50013F5AF /* Info.plist */,
 				DAFAD96D2648A06F0013F5AF /* TextFieldHoshi.swift */,
 				DAFAD9722648A0BF0013F5AF /* effects.swift */,
-				DA908E312652DFBD00BFA8BB /* CustomSearchBar.swift */,
 			);
 			path = placeholderTextField;
 			sourceTree = "<group>";
@@ -286,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAFAD93F26489DB50013F5AF /* LaunchScreen.storyboard in Resources */,
+				DA908E672653ACB600BFA8BB /* ExpiryDateView.xib in Resources */,
 				DAFAD93C26489DB50013F5AF /* Assets.xcassets in Resources */,
 				DAFAD93A26489DB30013F5AF /* Main.storyboard in Resources */,
 			);
@@ -415,8 +452,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA908E792653F5D400BFA8BB /* ExpiryDateExtension.swift in Sources */,
 				DAFAD93726489DB30013F5AF /* ViewController.swift in Sources */,
+				DA908E742653B2E600BFA8BB /* ExpiryDateView.swift in Sources */,
 				DAFAD93326489DB30013F5AF /* AppDelegate.swift in Sources */,
+				DA908E7E2653F5F800BFA8BB /* ExpeiryDateValidation.swift in Sources */,
 				DA908E322652DFBD00BFA8BB /* CustomSearchBar.swift in Sources */,
 				DAFAD93526489DB30013F5AF /* SceneDelegate.swift in Sources */,
 				DAFAD9732648A0BF0013F5AF /* effects.swift in Sources */,

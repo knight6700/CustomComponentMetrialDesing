@@ -57,6 +57,14 @@
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ot-dj-70u" customClass="ExpiryDateView" customModule="placeholderTextField" customModuleProvider="target">
+                                <rect key="frame" x="20" y="707" width="80" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="OTy-vk-wb2"/>
+                                    <constraint firstAttribute="width" constant="80" id="h6u-kd-UHa"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -65,8 +73,10 @@
                             <constraint firstItem="szS-Lp-DV0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8hb-gG-muX"/>
                             <constraint firstItem="szS-Lp-DV0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-20" id="Ayq-fd-32D"/>
                             <constraint firstItem="VOv-9A-JbW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Kza-Pq-K3A"/>
+                            <constraint firstItem="5Ot-dj-70u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SdB-q3-Cg9"/>
                             <constraint firstItem="VOv-9A-JbW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="T7K-18-HmV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VOv-9A-JbW" secondAttribute="trailing" constant="20" id="cZu-rH-nN8"/>
+                            <constraint firstItem="szS-Lp-DV0" firstAttribute="top" secondItem="5Ot-dj-70u" secondAttribute="bottom" constant="20" id="vuv-UF-pMy"/>
                         </constraints>
                     </view>
                 </viewController>

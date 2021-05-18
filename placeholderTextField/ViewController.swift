@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let estimatedFrame = CGRect(x: 10, y: 200, width: view.frame.width - 20, height: 100)
         let textField = MDCOutlinedTextField(frame: estimatedFrame)
+        
         textField.label.text = "Phone number"
         textField.placeholder = "555-555-5555"
         textField.leadingAssistiveLabel.text = "This is helper text"
